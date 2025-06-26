@@ -13,7 +13,6 @@ public class OrderController {
 
     private final OrderService orderService;
 
-
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public String placeOrder(@RequestBody OrderRequest orderRequest){
